@@ -10,6 +10,7 @@ const App = () => {
   const API_KEY = `https://www.omdbapi.com/?i=tt3896198&apikey=${
     import.meta.env.VITE_API_KEY
   }`;
+  console.log(API_KEY);
   const [movies, setMovies] = useState([]);
   const [search, setSearch] = useState('Spider Man');
 
